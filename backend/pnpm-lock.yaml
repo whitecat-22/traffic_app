@@ -9,23 +9,23 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.12.18
-        version: 4.12.18
+        specifier: ^4.13.11
+        version: 4.13.11
       pg:
         specifier: ^8.16.3
         version: 8.16.3
     devDependencies:
       '@types/bun':
         specifier: latest
-        version: 1.3.13
+        version: 1.4.3
       '@types/pg':
         specifier: ^8.15.4
         version: 8.15.4
 
 packages:
 
-  '@types/bun@1.3.13':
-    resolution: {integrity: sha512-9fqXWk5YIHGGnUau9TEi+qdlTYDAnOj+xLCmSTwXfAIqXr2x4tytJb43E9uCvt09zJURKXwAtkoH4nLQfzeTXw==}
+  '@types/bun@1.4.3':
+    resolution: {integrity: sha512-N67Pqy8JXbAY/j0tNraS3V5mubGvc6rrrNDmDCtZLlFzccbUJPDb0tvgUBC5q4m8ybkP93Jcn1QB+RYQ6PvBhw==}
 
   '@types/node@24.0.13':
     resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
@@ -36,11 +36,11 @@ packages:
   '@types/pg@8.15.4':
     resolution: {integrity: sha512-I6UNVBAoYbvuWkkU3oosC8yxqH21f4/Jc4DK71JLG3dT2mdlGe1z+ep/LQGXaKaOgcvUrsQoPRqfgtMcvZiJhg==}
 
-  bun-types@1.3.13:
-    resolution: {integrity: sha512-QXKeHLlOLqQX9LgYaHJfzdBaV21T63HhFJnvuRCcjZiaUDpbs5ED1MgxbMra71CsryN/1dAoXuJJJwIv/2drVA==}
+  bun-types@1.4.3:
+    resolution: {integrity: sha512-tinRJNGOmUN+tEAsn2y2e942n9JHRHR42iUYzDH75NmhJqVBokGSQkkfSFdNWwsANIdrK6ACH9t01M452YyTwg==}
 
-  hono@4.12.18:
-    resolution: {integrity: sha512-RWzP96k/yv0PQfyXnWjs6zot20TqfpfsNXhOnev8d1InAxubW93L11/oNUc3tQqn2G0bSdAOBpX+2uDFHV7kdQ==}
+  hono@4.13.11:
+    resolution: {integrity: sha512-/SMX/RQNJn7oNmFwH6DtwDqcrzZU2otm1FD6OJe2cWF6cfy/F8hq0XVBv7xW3FTJshRQwuBnXHDq2kNsdZnshg==}
     engines: {node: '>=16.9.0'}
 
   pg-cloudflare@1.2.7:
@@ -109,9 +109,9 @@ packages:
 
 snapshots:
 
-  '@types/bun@1.3.13':
+  '@types/bun@1.4.3':
     dependencies:
-      bun-types: 1.3.13
+      bun-types: 1.4.3
 
   '@types/node@24.0.13':
     dependencies:
@@ -127,11 +127,12 @@ snapshots:
       pg-protocol: 1.10.3
       pg-types: 2.2.0
 
-  bun-types@1.3.13:
+  bun-types@1.4.3:
     dependencies:
       '@types/node': 25.6.2
+      undici-types: 7.19.2
 
-  hono@4.12.18: {}
+  hono@4.13.11: {}
 
   pg-cloudflare@1.2.7:
     optional: true
